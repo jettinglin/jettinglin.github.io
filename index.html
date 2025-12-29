@@ -3,9 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>林玠廷 — CS203A Data Structures</title>
+  <title>林玠廷 — CS203A 資料結構</title>
   <style>
-    /* 背景與字體 */
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans TC", Arial, sans-serif;
       margin: 0;
@@ -14,18 +13,17 @@
       line-height: 1.7;
     }
 
-    /* 容器 */
     header, main, footer {
       max-width: 900px;
       margin: auto;
       padding: 2rem;
     }
 
-    /* 頁首 */
     header {
       text-align: center;
       padding: 3rem 2rem;
     }
+
     header h1 {
       font-size: 2.5rem;
       font-weight: 800;
@@ -34,12 +32,12 @@
       -webkit-text-fill-color: transparent;
       margin-bottom: 0.5rem;
     }
+
     header p {
       font-size: 1.2rem;
       color: #4b5563;
     }
 
-    /* 卡片 */
     .card {
       background: white;
       border-radius: 16px;
@@ -48,6 +46,7 @@
       box-shadow: 0 6px 16px rgba(0,0,0,0.08);
       transition: transform 0.25s ease, box-shadow 0.25s ease;
     }
+
     .card:hover {
       transform: translateY(-6px);
       box-shadow: 0 12px 24px rgba(0,0,0,0.12);
@@ -61,13 +60,21 @@
       padding-left: 0.5rem;
     }
 
-    /* 連結樣式 */
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
     a {
       text-decoration: none;
       color: #2563eb;
       font-weight: 500;
       position: relative;
     }
+
     a::after {
       content: "";
       position: absolute;
@@ -80,12 +87,12 @@
       transform-origin: right;
       transition: transform 0.25s ease;
     }
+
     a:hover::after {
       transform: scaleX(1);
       transform-origin: left;
     }
 
-    /* 頁尾 */
     footer {
       text-align: center;
       color: #6b7280;
@@ -95,27 +102,82 @@
     }
   </style>
 </head>
+
 <body>
   <header>
     <h1>林玠廷</h1>
-    <p>Welcome to my CS203A personal homepage at Yuan Ze University.</p>
+    <p>CS203A 資料結構｜元智大學</p>
   </header>
 
   <main>
     <section class="card">
-      <h2>Quick Links</h2>
+      <h2>快速連結</h2>
       <ul>
-        <li>Course Repository: <a href="https://github.com/jettinglin/11401_CS203A" target="_blank">11401_CS203A</a></li>
-        <li>GitHub Profile: <a href="https://github.com/jettinglin" target="_blank">github.com/jettinglin</a></li>
+        <li>
+           課程 GitHub Repository：
+          <a href="https://github.com/jettinglin/11401_CS203A" target="_blank">
+            11401_CS203A
+          </a>
+        </li>
+        <li>
+           個人 GitHub：
+          <a href="https://github.com/jettinglin" target="_blank">
+            github.com/jettinglin
+          </a>
+        </li>
       </ul>
     </section>
 
     <section class="card">
-      <h2>About</h2>
-      <p>This site is published with GitHub Pages. I will share my notes, assignments, and learning progress here.</p>
+      <h2>課程簡介</h2>
+      <p>
+        CS203A《資料結構》為基礎核心課程，主要介紹常見資料結構的設計概念、
+        實作方式與應用情境，並搭配時間與空間複雜度分析，
+        以培養解決問題時選擇合適資料結構的能力。
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>課程內容重點</h2>
+      <ul>
+        <li>陣列（Array）與鏈結串列（Linked List）</li>
+        <li>堆疊（Stack）與佇列（Queue）</li>
+        <li>樹狀結構（Binary Tree、BST、Traversal）</li>
+        <li>Heap 與 Priority Queue</li>
+        <li>雜湊表（Hash Table）</li>
+        <li>圖形結構（Graph）與圖形走訪</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>學習目標</h2>
+      <ul>
+        <li>理解各種資料結構的內部運作原理</li>
+        <li>能依問題需求選擇合適的資料結構</li>
+        <li>具備自行實作資料結構的能力</li>
+        <li>能分析程式在時間與空間上的效率</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>學習筆記與進度紀錄</h2>
+      <p>
+        本區將陸續整理課程筆記、作業重點與學習心得，
+        作為本學期 CS203A 課程的學習紀錄與回顧資料。
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>關於本站</h2>
+      <p>
+        本網站透過 GitHub Pages 建置，作為 CS203A《資料結構》課程的個人學習首頁，
+        用於彙整作業、筆記與學習成果，並方便日後複習與延伸應用。
+      </p>
     </section>
   </main>
 
-  <footer>© 2025 林玠廷 • Yuan Ze University</footer>
+  <footer>
+    © 2025 林玠廷 • 元智大學
+  </footer>
 </body>
 </html>
